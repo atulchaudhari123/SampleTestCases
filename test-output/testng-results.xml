@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+      <class name="TestScenario.BankingApplication">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestScenario.BankingApplication@42d8062c]" name="beforeTest" is-config="true" duration-ms="12" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestScenario.BankingApplication@42d8062c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginBankApp(org.testng.ITestContext)[pri:1, instance:TestScenario.BankingApplication@42d8062c]" name="LoginBankApp" duration-ms="9" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77a57272]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginBankApp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestScenario.BankingApplication@42d8062c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="checkBalance(org.testng.ITestContext)[pri:2, instance:TestScenario.BankingApplication@42d8062c]" name="checkBalance" duration-ms="1" started-at="2020-11-04T16:04:01 IST" depends-on-methods="TestScenario.BankingApplication.LoginBankApp" finished-at="2020-11-04T16:04:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77a57272]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBalance -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestScenario.BankingApplication@42d8062c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestScenario.BankingApplication@42d8062c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestScenario.BankingApplication@42d8062c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="BalanceTransfer(org.testng.ITestContext)[pri:3, instance:TestScenario.BankingApplication@42d8062c]" name="BalanceTransfer" duration-ms="2" started-at="2020-11-04T16:04:01 IST" depends-on-methods="TestScenario.BankingApplication.LoginBankApp, TestScenario.BankingApplication.checkBalance" finished-at="2020-11-04T16:04:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77a57272]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BalanceTransfer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestScenario.BankingApplication@42d8062c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="LogoutBankApp(org.testng.ITestContext)[pri:4, instance:TestScenario.BankingApplication@42d8062c]" name="LogoutBankApp" duration-ms="1" started-at="2020-11-04T16:04:01 IST" depends-on-methods="TestScenario.BankingApplication.LoginBankApp" finished-at="2020-11-04T16:04:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77a57272]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutBankApp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestScenario.BankingApplication@42d8062c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestScenario.BankingApplication@42d8062c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestScenario.BankingApplication@42d8062c]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-11-04T16:04:01 IST" finished-at="2020-11-04T16:04:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestScenario.BankingApplication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
