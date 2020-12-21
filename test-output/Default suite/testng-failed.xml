@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestReport.TestCasesReports">
+      <class name="TestScenario.Selenium4fetures">
         <methods>
-          <include name="loginTest"/>
-          <include name="quit"/>
-          <include name="intitialization"/>
+          <include name="screenshot"/>
+          <include name="setUP"/>
         </methods>
-      </class> <!-- TestReport.TestCasesReports -->
+      </class> <!-- TestScenario.Selenium4fetures -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
